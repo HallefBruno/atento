@@ -1,0 +1,22 @@
+# application.yml
+    
+server:
+  port: 8086
+  servlet:
+    context-path: /deolho 
+    
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: sudtecnologia@gmail.com
+    password: 91696192Eu
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
