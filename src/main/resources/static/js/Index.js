@@ -16,6 +16,10 @@ $(function () {
             window.console.log(data);
         }
     });
+    
+    $(document).ajaxStart(function() {$("#carregando").addClass("show");});
+    $(document).ajaxComplete(function() { $("#carregando").removeClass("show"); });
+    
     $("#btnVerificarPonto").click(function () {
         alert("Ainda em desenvolvimento!");
     });
