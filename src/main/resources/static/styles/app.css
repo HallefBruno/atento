@@ -1,12 +1,12 @@
-.loading {
+#divLoading {
     display : none;
 }
-.loading.show {
+#divLoading.show {
     display : block;
     position : fixed;
     z-index: 100;
     background-image : url('/deolho/imagens/hourglass.gif');
-    background-color:#999999; /*#ffffff;*/
+    background-color:#ffffff;
     opacity : 0.8;
     background-repeat : no-repeat;
     background-position : center;
